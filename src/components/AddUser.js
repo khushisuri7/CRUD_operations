@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import { FormGroup, FormControl, InputLabel,Input, Typography,styled, Button } from '@mui/material';
+import { addUser } from '../service/api';
 const  Container= styled(FormGroup)`
   width:50%;
   margin:5% auto 0 auto;
@@ -23,7 +24,7 @@ export default function AddUser() {
   
 }
 const addUserDetails = async() => {
-  
+  await addUser(user);
 }
 
   return (
