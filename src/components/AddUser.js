@@ -12,7 +12,8 @@ const defaultValue={
   name:'',
   username:'',
   email:'',
-  phone:''
+  phone:'',
+  
 }
 
 export default function AddUser() {

@@ -20,7 +20,7 @@ export default function Navbar() {
     <Header position='static'>
         <Toolbar>
           <Tabs><img className='crudIcon' alt='Load' src='https://assets.materialup.com/uploads/008bcf7d-3295-4365-822e-50946fb6b7ec/preview.png'/></Tabs>
-          <Tabs to="./" exact>Home</Tabs>
+          <Tabs to="/" exact>Home</Tabs>
                 <Tabs to="/all" exact>All Users</Tabs>
                 <Tabs to="/add" exact>Add User</Tabs>
         </Toolbar>
